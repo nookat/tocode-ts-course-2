@@ -1,7 +1,7 @@
 type MyBoolean = false | true;
 type Pair = [string, string];
 
-const pairs: Pair[] = [['key1', 'valu1'], ['key2', 'valu2']];
+const pairs2: Pair[] = [['key1', 'valu1'], ['key2', 'valu2']];
 
 type DiffCar = {
   wheels: number,
