@@ -33,3 +33,5 @@ function printName({firstName, lastName}: {
 }
 
 printName({firstName: 'Ivan'});
+
+export {}
