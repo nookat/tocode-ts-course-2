@@ -12,10 +12,10 @@ class Rectangle {
 const rect1 = new Rectangle(20, 12);
 console.log(rect1.area);
 class Car {
-    constructor(color, _maxSpeed, #country = 'USA') {
+    constructor(color, _maxSpeed, country = 'USA') {
         this.color = color;
         this._maxSpeed = _maxSpeed;
-        this.#country = #country;
+        this.country = country;
     }
     get maxSpeed() {
         return this._maxSpeed;

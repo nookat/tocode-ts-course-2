@@ -10,7 +10,7 @@ const rect1 = new Rectangle(20, 12);
 console.log(rect1.area);
 
 class Car {
-  constructor(public color: string, private _maxSpeed: number, private #country = 'USA') {}
+  constructor(public color: string, private _maxSpeed: number, private country = 'USA') {}
 
   get maxSpeed(): number {
     return this._maxSpeed;
